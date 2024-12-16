@@ -1,15 +1,12 @@
 from setuptools import find_packages, setup
 
-with open("app/README.md", "r") as f:
-    long_description = f.read()
-
 setup(
     name="idgenerator",
     version="0.0.10",
     description="An id generator that generated various types and lengths ids",
     package_dir={"": "app"},
     packages=find_packages(where="app"),
-    long_description=long_description,
+    long_description="ok",
     long_description_content_type="text/markdown",
     url="",
     author="Eduarda",
